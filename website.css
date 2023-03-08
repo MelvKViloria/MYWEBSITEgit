@@ -1,0 +1,90 @@
+/* Import Gloock font */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+/* Global Styles */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ff4d4d;
+  text-decoration: none;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: #000000;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 1.5rem;
+}
+
+.nav-link:hover {
+  color: #ff4d4d;
+}
+
+/* Main Content Styles */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background-color: #ff4d4d;
+  color: #ffffff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ff4d4d;
+}
+
+.btn-primary:hover {
+  background-color: #ff4d4d;
+  color: #ffffff;
+  border-color: #ff4d4d;
+}
+
+/* Footer Styles */
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Heading Styles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gloock', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
